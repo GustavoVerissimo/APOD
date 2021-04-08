@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="apod.css">
+    <title>APOD</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="nasa" src="./nasa-logo-web-rgb.png">
+        </div>
+    </header>
+
+    <main>
+        <div class="astronomy">
+            <h1 class="astronomyH1">Astronomy Picture of the Day</h1>
+            <h3>Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</h3>
+        </div>
+        <div class="principal">
+            <img class="img" id="imgAtual">
+        </div>
+        <div class="DivData">
+            <input type="date"  class="data" id="data">
+            <button class="botao" id="button">search</button>
+        </div>
+        
+        <div class="textos">
+            
+            <p class="imagemData" id="ImagemData"></p>
+            <p class="tituloTexto" id="NomeTexto"></p>
+            <p class="explanation" id="Explanation"></p>
+            
+        </div>
+    </main>
+
+    
+    
+    <script src="./apod.js" type="text/javascript" ></script>
+</body>
+</html>
